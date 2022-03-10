@@ -81,8 +81,8 @@
     var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
     // Keluarkan hasil dalam elemen dengan id = "demo"
-    document.getElementById("ramadhan").innerHTML = days + "d " + hours + "h "
-    + minutes + "m " + seconds + "s ";
+    document.getElementById("ramadhan").innerHTML = days + "h " + hours + "j "
+    + minutes + "m " + seconds + "d ";
     // Jika hitungan mundur selesai, tulis beberapa teks
     if (distance < 0) {
       clearInterval(x);
@@ -107,8 +107,8 @@
     var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
     // Keluarkan hasil dalam elemen dengan id = "demo"
-    document.getElementById("lebaran").innerHTML = days + "d " + hours + "h "
-    + minutes + "m " + seconds + "s ";
+    document.getElementById("lebaran").innerHTML = days + "h " + hours + "j "
+    + minutes + "m " + seconds + "d ";
     // Jika hitungan mundur selesai, tulis beberapa teks
     if (distance < 0) {
       clearInterval(x2);
